@@ -1,0 +1,77 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Packaging and distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+share/python-wheels/
+
+# Test, coverage, and type-checking output
+.pytest_cache/
+.pytest_tmp/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Framework/runtime artifacts
+*.log
+logs/
+uploads/
+media/
+staticfiles/
+*.db
+*.sqlite
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs and editors
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local tooling and generated files
+.cache/
+.pybuilder/
+.dmypy.json
+dmypy.json
